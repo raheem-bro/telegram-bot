@@ -1,8 +1,8 @@
 <?
 date_default_timezone_set('Asia/Tashkent');
-define('API_KEY', '1151828985:AAFu_24kpfdFpjIPKy3JcZhibSvEiUYA8fo');
-$Manager = "150105698";
-$compane = "infomir.uz LTD";
+define('API_KEY', '1789461920:AAFeqmQgTxF0mN4Ho9f70Or1cL02q7wzWqw');
+$Manager = "1523561475";
+$compane = "Raheem";
 function bot($method, $datas = []){
     $url = "https://api.telegram.org/bot".API_KEY."/" . $method;
     $ch = curl_init();
